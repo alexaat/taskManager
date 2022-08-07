@@ -1,7 +1,3 @@
-/*
-Copyright © 2022 NAME HERE <EMAIL ADDRESS>
-
-*/
 package cmd
 
 import (
@@ -14,7 +10,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// doCmd represents the do command
 var doCmd = &cobra.Command{
 	Use:   "do",
 	Short: "Marks a task as complete",

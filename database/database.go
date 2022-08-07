@@ -27,8 +27,6 @@ func GetTasks(backet string) ([]string, error) {
 			return nil
 		}
 
-		//b := tx.Bucket([]byte(backet))
-
 		c := b.Cursor()
 
 		index := 1
